@@ -35,3 +35,38 @@
     font-size: 16px;
     margin-bottom: 48px;
 }
+
+@media (max-width: 1024px) {
+    .containerProfile {
+        width: 600px;
+        padding: 18px 10px;
+        gap: 16px;
+    }
+
+    .profilePhoto {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    .containerProfile {
+        width: 500px;
+        padding: 18px 10px;
+        gap: 16px;
+    }
+
+    .profilePhoto {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 460px) {
+    .containerProfile {
+        width: 350px;
+    }
+
+    .profilePhoto {
+    }
+}

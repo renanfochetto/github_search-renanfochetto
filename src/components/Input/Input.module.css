@@ -31,3 +31,19 @@
 .searchButton:active{
     transform: scale(0.9);
 }
+
+@media (max-width: 768px) {
+    .searchContainer {
+        width: 400px;
+        padding: 18px 10px;
+        gap: 16px;
+    }
+}
+
+@media (max-width: 460px) {
+    .searchContainer {
+        width: 300px;
+        padding: 14px 8px;
+        gap: 12px;
+    }
+}
