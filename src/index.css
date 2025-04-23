@@ -1,0 +1,13 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 20px;
+}
+
+p, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+

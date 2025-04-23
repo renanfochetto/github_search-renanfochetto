@@ -1,0 +1,39 @@
+.containerFinder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 60px;
+}
+
+.containerError{
+    background: #d9d9d9;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #ff0000;
+    padding: 18px 0;
+    width: 710px;
+    border-radius: 10px;
+    margin-top: 32px;
+}
+
+.loadingContainer {
+    margin-top: 80px;
+}
+
+.spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-left-color: #4b9ce2;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
