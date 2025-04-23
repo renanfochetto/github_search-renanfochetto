@@ -38,7 +38,7 @@ const GithubFinder = () => {
 
   return (
     <section className={styles.containerFinder}>
-      <img src="../assets/logo.png" alt="Logo do Buscador de Perfis" />
+      <img src="src/assets/logo.png" alt="Logo do Buscador de Perfis" />
       <Input onSearch={fetchProfile} />
       <div>
         {loading && (
