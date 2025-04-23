@@ -2,6 +2,7 @@ import { useState } from "react";
 import styles from './GithubFinder.module.css';
 import Input from './Input/Input.jsx';
 import Card from './Card/Card.jsx';
+import logo from '../assets/logo.png';
 
 const GithubFinder = () => {
   const [profileData, setProfileData] = useState(null); // Armazena os dados do perfil encontrado
@@ -38,7 +39,7 @@ const GithubFinder = () => {
 
   return (
     <section className={styles.containerFinder}>
-      <img src="src/assets/logo.png" alt="Logo do Buscador de Perfis" />
+      <img src={logo} alt="Logo do Buscador de Perfis" />
       <Input onSearch={fetchProfile} />
       <div>
         {loading && (
